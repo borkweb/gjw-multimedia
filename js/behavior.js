@@ -13,6 +13,20 @@ var mm = {};
 				}
 			}
 		});
+
+		$( '#battle' ).waypoint( function() {
+			mm.fates( true );
+		}, {
+			offset: -13800
+		});
+	};
+
+	mm.fates = function( mode ) {
+		if ( mode ) {
+			$( '#fates' ).get( 0 ).play();
+		} else {
+			$( '#fates' ).get( 0 ).pause();
+		}//end else
 	};
 
 	$( function() {

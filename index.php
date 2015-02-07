@@ -27,99 +27,26 @@
 	</div>
 
 	<?php
+	include __DIR__ . '/functions.php';
 	include __DIR__ . '/messages.php';
 
 	$start = 550;
-	$top = 0;
-	$first = TRUE;
 
-	$massaged_chatter = array();
+	$chatter = prep_chatter( $start, $chatter );
+	$final_height = out_chatter( $start, $chatter, 'chat-container-1' );
 
-	foreach ( $chatter as $chat ) {
-		if ( is_numeric( $chat ) ) {
-			$start += $chat;
-			continue;
-		}//end if
-
-		$avatar = empty( $chat['avatar'] ) ? NULL : $chat['avatar'];
-		$name = empty( $chat['name'] ) ? NULL : $chat['name'];
-		$height = empty( $chat['height'] ) ? 1 : $chat['height'];
-		$message = $chat['message'];
-
-		if ( $first ) {
-			$first = FALSE;
-		} else {
-			if ( $avatar ) {
-				$top += 15;
-				$start = $end + 550;
-			} else {
-				$top += 10;
-				$start = $end + 150;
-			}//end else
-		}//end else
-
-		$end = $start + 100;
-
-		$massaged_chatter[] = array(
-			'avatar' => $avatar,
-			'name' => $name,
-			'height' => $height,
-			'message' => $message,
-			'top' => $top,
-			'start' => $start,
-			'end' => $end,
-		);
-
-		// prepare for the next message
-		if ( $height - 1 ) {
-			if ( $avatar ) {
-				$top += 80;
-			} else {
-				$top += 48;
-			}//end else
-		} else {
-			if ( $avatar ) {
-				$top += 81;
-			} else {
-				$top += 47;
-			}//end else
-		}//end else
-
-		$top += ( $height - 1 ) * 24;
-	}//end foreach
-
-	ob_start();
-
-	foreach ( $massaged_chatter as $chat ) {
-		$avatar = $chat['avatar'];
-		$name = $chat['name'];
-		$message = $chat['message'];
-		$height = $chat['height'];
-		$start = $chat['start'];
-		$end = $chat['end'];
-		$top = $chat['top'];
-
-		include __DIR__ . '/chatbox.php';
-	}//end foreach
-
-	$chatboxes = ob_get_clean();
-	$final_height = $end;
 	?>
-	<div
-		id="chat-container"
-		data-550="left:0;top:0%;opacity:1;width:100%;height:<?php echo $final_height; ?>px;"
-		data-3550="top:0%;"
-		<?php
-		for ( $i = 3560, $j = 1; $i < $final_height + 3000; $i += 5, $j++ ) {
-			?>
-			data-<?php echo $i; ?>="top:-<?php echo $j; ?>px;"
-			<?php
-		}//end for
-		?>
-		data-<?php echo $final_height+10000; ?>="top:-<?php echo $final_height;?>px;"
-	>
-		<?php echo $chatboxes; ?>
+	<div id="battle" data-<?php echo $final_height; ?>="opacity:0;bottom:3%;" data-<?php echo $final_height + 300; ?>="opacity:0;bottom:40%;" data-<?php echo $final_height + 1800; ?>="opacity:1;" data-<?php echo $final_height + 2500; ?>="opacity:0;">
+		<p>*Some time later*</p>
 	</div>
+
+	<?php
+	$start = $final_height + 2500;
+
+	include __DIR__ . '/messages-battle.php';
+	$chatter = prep_chatter( $start, $chatter );
+	$final_height = out_chatter( $start, $chatter, 'chat-container-2' );
+	?>
 
 	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
 
@@ -127,7 +54,12 @@
 	<!--[if lt IE 9]>
 	<script type="text/javascript" src="js/skrollr/dist/skrollr.ie.min.js"></script>
 	<![endif]-->
+	<script src="js/waypoints.min.js"></script>
 	<script src="js/behavior.js"></script>
+
+	<audio id="fates" controls="controls" style="display: none;" preload="auto">
+		<source src="sound/fates.mp3" />
+	</audio>
 </body>
 
 </html>
