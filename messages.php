@@ -21,7 +21,6 @@ $chatter[] = array(
 );
 $chatter[] = array(
 	'message' => 'No more planets in the Sith Empire for us to attack. Peace shall return.',
-	'height' => 2,
 );
 $chatter[] = 1000;
 $chatter[] = array(
@@ -40,7 +39,6 @@ $chatter[] = array(
 );
 $chatter[] = array(
 	'message' => 'Together as an entity this Shadow Clan of ours can unite and succeed.',
-	'height' => 2,
 );
 $chatter[] = array(
 	'message' => 'I, myself am a little cynical about this whole thing, but we must ignore such doubts and move forward as one.',
@@ -56,13 +54,11 @@ $chatter[] = array(
 	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/830/original/Turel_Face.png',
 	'name' => 'Turel',
 	'message' => 'You focus on that, we’ll focus on stopping Taldryan and their allies.',
-	'height' => 2,
 );
 $chatter[] = array(
 	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/008/431/original/baxir-vol-avatar.jpg',
 	'name' => 'Baxir',
 	'message' => 'Yeah, we shouldn’t be concerned about that Teltior. He’s gone.',
-	'height' => 2,
 );
 $chatter[] = array(
 	'message' => 'Let’s focus on things that matter in the here and now.',

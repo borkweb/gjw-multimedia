@@ -50,10 +50,10 @@
 			$first = FALSE;
 		} else {
 			if ( $avatar ) {
-				$top += 25;
+				$top += 15;
 				$start = $end + 550;
 			} else {
-				$top += 15;
+				$top += 10;
 				$start = $end + 150;
 			}//end else
 		}//end else
