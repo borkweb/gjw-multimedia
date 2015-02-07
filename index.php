@@ -20,9 +20,9 @@
 	<div id="progress" data-0="width:0%;background:rgba(55, 55, 55, .3);" data-end="width:100%;background:rgba( 55, 55, 55, 1);"></div>
 
 	<div id="intro" data-0="opacity:1;top:3%;" data-500="opacity:0;top:-20%;">
-		<h1><a href="https://github.com/Prinzhorn/skrollr">skrollr</a></h1>
-		<h2>parallax scrolling for the masses</h2>
-		<p>let's get scrollin' ;-)</p>
+		<h1>Some sweet title</h1>
+		<h2>Andrelious, Baxir, and Kookimarissia</h2>
+		<p>Scroll!</p>
 		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
 	</div>
 
