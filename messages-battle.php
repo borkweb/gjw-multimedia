@@ -71,7 +71,7 @@ $chatter[] = array(
 	'message' => 'Squad 8, 9 and 13 moving into position.',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/008/431/original/baxir-vol-avatar.jpg',
+	'avatar' => 'img/avatars/legorii.jpg',
 	'name' => 'Legorii',
 	'message' => 'Things are about to get interesting...',
 );
@@ -79,7 +79,7 @@ $chatter[] = array(
 	'message' => 'Looks like a group of Cotelin’s is en route as well!',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/008/431/original/baxir-vol-avatar.jpg',
+	'avatar' => 'img/avatars/scion.jpg',
 	'name' => 'Scion',
 	'message' => 'That’s probably our sign to get out of here.',
 );
@@ -90,7 +90,7 @@ $chatter[] = array(
 	'height' => 2,
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/003/714/original/3714-avatar.png',
+	'avatar' => 'img/avatars/muz.jpg',
 	'name' => 'Muz',
 	'message' => 'Stay with me and you’ll be rewarded. Run, and be hunted!',
 );
@@ -100,14 +100,14 @@ $chatter[] = array(
 	'message' => 'They’ve stopped. What’s Esoteric doing?',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/ood.jpg',
 	'name' => 'Ood',
 	'message' => 'I sense something isn’t right. I’ve only read about this once, but...',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/esoteric.jpg',
 	'name' => 'Esoteric',
-	'message' => 'Thank you for joining me. Two millennia is far too long to live. Finally, I\’ve found the way out of this living hell. Unleash the thought bomb, men!',
+	'message' => 'Thank you for joining me. Two millennia is far too long to live. Finally, I’ve found the way out of this living hell. Unleash the thought bomb, men!',
 	'height' => 2,
 );
 $chatter[] = array(
