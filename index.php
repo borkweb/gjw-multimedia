@@ -87,6 +87,9 @@
 	<script src="js/jquery.simplyscroll.min.js"></script>
 	<script src="js/behavior.js"></script>
 
+	<audio id="force" controls="controls" style="display: none;" preload="auto">
+		<source src="sound/force.mp3" />
+	</audio>
 	<audio id="fates" controls="controls" style="display: none;" preload="auto">
 		<source src="sound/fates.mp3" />
 	</audio>

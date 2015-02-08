@@ -22,15 +22,35 @@ var mm = {};
 			} );
 		});
 
+		$( '#intro' ).waypoint( function( direction ) {
+			if ( 'up' === direction ) {
+				mm.force( false );
+			} else {
+				mm.force( true );
+				mm.fates( false );
+			}//end else
+		}, {
+			offset: 0
+		});
+
 		$( '#battle' ).waypoint( function( direction ) {
 			if ( 'up' === direction ) {
 				mm.fates( false );
+				mm.force( true );
 			} else {
 				mm.fates( true );
 			}//end else
 		}, {
 			offset: -13800
 		});
+	};
+
+	mm.force = function( mode ) {
+		if ( mode ) {
+			$( '#force' ).get( 0 ).play();
+		} else {
+			$( '#force' ).get( 0 ).pause();
+		}//end else
 	};
 
 	mm.fates = function( mode ) {
