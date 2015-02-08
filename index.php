@@ -52,7 +52,30 @@
 	$final_height = out_chatter( $start, $chatter, 'chat-container-2', 6 );
 	$bg_change = $final_height + 2500;
 	?>
-	<!--div id="bg5" data-0="opacity:0;" data-<?php echo $bg_change-1000; ?>="opacity:0;" data-<?php echo $bg_change; ?>="opacity:1;background-position:0px 0px;" data-end="background-position:0px 0px;"></div-->
+	<div id="bg5" data-0="opacity:0;" data-<?php echo $bg_change-4000; ?>="opacity:0;" data-<?php echo $bg_change-3500; ?>="opacity:1;" data-end=""></div>
+	<div id="battle" data-<?php echo $final_height; ?>="opacity:0;bottom:3%;" data-<?php echo $final_height + 300; ?>="opacity:0;bottom:40%;" data-<?php echo $final_height + 1800; ?>="opacity:1;" data-<?php echo $final_height + 2500; ?>="opacity:0;">
+		<p><em>*Thought bomb <strong>explodes</strong>!!!!*</em></p>
+	</div>
+	<div id="bg6" data-0="opacity:0;" data-<?php echo $bg_change-2800; ?>="opacity:0;" data-<?php echo $bg_change-2300; ?>="opacity:1;" data-end=""></div>
+
+	<?php
+	$start = $final_height + 2500;
+
+	$chatter = array();
+	$chatter[] = array(
+		'avatar' => 'img/avatars/esoteric.jpg',
+		'name' => 'Esoteric',
+		'message' => 'Death and destruction lay before me. And still I’m alive. I’ve failed.',
+		'height' => 2,
+	);
+
+	$chatter = prep_chatter( $start, $chatter );
+	$final_height = out_chatter( $start, $chatter, 'chat-container-2', 6 );
+	$bg_change = $final_height + 2500;
+?>
+	<div id="battle" data-<?php echo $final_height; ?>="opacity:0;bottom:3%;" data-<?php echo $final_height + 300; ?>="opacity:0;bottom:40%;" data-<?php echo $final_height + 1800; ?>="opacity:1;">
+		<p>Despite an attempt at a murderous suicide, Esoteric is doomed to continue.</p>
+	</div>
 
 	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
 

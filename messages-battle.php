@@ -111,12 +111,12 @@ $chatter[] = array(
 	'height' => 2,
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/aabsdu.jpg',
 	'name' => 'Aabsdu',
 	'message' => 'Yes, Lord Esoteric!',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/dacien.jpg',
 	'name' => 'Dacien',
 	'message' => 'By your command, Lord Esoteric!',
 );
