@@ -1,22 +1,27 @@
 <?php
 $chatter = array();
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/nadrin.jpg',
 	'name' => 'Nadrin',
 	'message' => 'These di’kut One Sith keep on coming!',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/kooki-angry.jpg',
 	'name' => 'Kooki',
 	'message' => 'Die, buckethead!',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/010/214/original/maricktar2.jpg',
+	'avatar' => 'img/avatars/andrelious-angry.jpg',
+	'name' => 'Andrelious',
+	'message' => 'Frakking Plagueian traitors!',
+);
+$chatter[] = array(
+	'avatar' => 'img/avatars/marick-concerned.jpg',
 	'name' => 'Marick',
 	'message' => 'Don’t get too hasty, Erinos! This isn’t over yet.',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/kooki-surprised.jpg',
 	'name' => 'Kooki',
 	'message' => 'I’m with Nadrin, this isn’t even a challe-',
 );
@@ -27,7 +32,7 @@ $chatter[] = array(
 	'message' => 'What’s that coming over that dune?',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/andrelious-worried.jpg',
 	'name' => 'Andrelious',
 	'message' => 'Frak! A fresh wave! There’s a swarm of them and it looks like...',
 );
@@ -35,7 +40,7 @@ $chatter[] = array(
 	'message' => '...it <em>feels</em> like Esoteric is with them!',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/008/431/original/baxir-vol-avatar.jpg',
+	'avatar' => 'img/avatars/baxir-calm.jpg',
 	'name' => 'Baxir',
 	'message' => 'Oh, that’s him alright.',
 );
@@ -44,18 +49,18 @@ $chatter[] = array(
 	'height' => 2,
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/008/431/original/baxir-vol-avatar.jpg',
+	'avatar' => 'img/avatars/trooper.jpg',
 	'name' => 'Lieutenant',
 	'message' => 'Sir, we’ll be outnumbered two to one!',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/008/431/original/baxir-vol-avatar.jpg',
+	'avatar' => 'img/avatars/baxir-angry.jpg',
 	'name' => 'Baxir',
 	'message' => 'I didn’t <em>ask</em> for your <em>opinion</em>, soldier.  Either you do as <em>ordered</em> or both you <em>and</em> your family’s lives are forfeit. I’ll see to it personally.',
 	'height' => 3,
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/008/431/original/baxir-vol-avatar.jpg',
+	'avatar' => 'img/avatars/trooper.jpg',
 	'name' => 'Lieutenant',
 	'message' => 'Squad 8, 9 and 13 moving into position.',
 );
@@ -73,7 +78,7 @@ $chatter[] = array(
 	'message' => 'That’s probably our sign to get out of here.',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/010/214/original/maricktar2.jpg',
+	'avatar' => 'img/avatars/marick-angry.jpg',
 	'name' => 'Marick',
 	'message' => 'You’re talking of breaking the Estle-Eden axis? We stay! For Arcona! For Ashen!',
 	'height' => 2,
@@ -84,7 +89,7 @@ $chatter[] = array(
 	'message' => 'Stay with me and you’ll be rewarded. Run, and be hunted!',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/andrelious-curious.jpg',
 	'name' => 'Andrelious',
 	'message' => 'They’ve stopped. What’s Esoteric doing?',
 );

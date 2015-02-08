@@ -24,7 +24,7 @@
 		<h2>A multimedia submission</h2>
 		<h3>by Andrelious, Baxir, and Kookimarissia</h3>
 		<hr>
-		<p>Scroll!</p>
+		<p>Scroll</p>
 		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
 	</div>
 
@@ -50,7 +50,9 @@
 	include __DIR__ . '/messages-battle.php';
 	$chatter = prep_chatter( $start, $chatter );
 	$final_height = out_chatter( $start, $chatter, 'chat-container-2', 6 );
+	$bg_change = $final_height + 2500;
 	?>
+	<!--div id="bg5" data-0="opacity:0;" data-<?php echo $bg_change-1000; ?>="opacity:0;" data-<?php echo $bg_change; ?>="opacity:1;background-position:0px 0px;" data-end="background-position:0px 0px;"></div-->
 
 	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
 

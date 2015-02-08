@@ -1,12 +1,12 @@
 <?php
 $chatter = array();
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/andrelious-pleased.jpg',
 	'name' => 'Andrelious',
 	'message' => 'So I’ve heard we’re finally heading to Korriban.',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/kooki-fedup.jpg',
 	'name' => 'Kooki',
 	'message' => 'Good.',
 );
@@ -15,7 +15,7 @@ $chatter[] = array(
 );
 $chatter[] = 200;
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/486/original/Atty-commission-jediarttrick-avatar_size.jpg',
+	'avatar' => 'img/avatars/atyiru-content.jpg',
 	'name' => 'Atyiru',
 	'message' => 'Yes, Kooki, dear.',
 );
@@ -27,13 +27,13 @@ $chatter[] = array(
 	'message' => 'Well, at least for now.',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/486/original/Atty-commission-jediarttrick-avatar_size.jpg',
+	'avatar' => 'img/avatars/kooki-inquisitive.jpg',
 	'name' => 'Kooki',
 	'message' => 'Good. Korriban? Isn’t that a desert planet? <em>AND</em> under the control of the One Sith?',
 	'height' => 2,
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/486/original/Atty-commission-jediarttrick-avatar_size.jpg',
+	'avatar' => 'img/avatars/celevon.jpg',
 	'name' => 'Celevon',
 	'message' => 'Stop worrying, Kooki.',
 );
@@ -45,18 +45,18 @@ $chatter[] = array(
 	'height' => 2,
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/010/214/original/maricktar2.jpg',
+	'avatar' => 'img/avatars/marick-determined.jpg',
 	'name' => 'Marick',
 	'message' => 'If nothing else, the chance to take revenge on Esoteric for what happened to Orv should drive us on.',
 	'height' => 2,
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/830/original/Turel_Face.png',
+	'avatar' => 'img/avatars/turel.jpg',
 	'name' => 'Turel',
 	'message' => 'You focus on that, we’ll focus on stopping Taldryan and their allies.',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/008/431/original/baxir-vol-avatar.jpg',
+	'avatar' => 'img/avatars/baxir-annoyed.jpg',
 	'name' => 'Baxir',
 	'message' => 'Yeah, we shouldn’t be concerned about that Teltior. He’s gone.',
 );
@@ -64,17 +64,17 @@ $chatter[] = array(
 	'message' => 'Let’s focus on things that matter in the here and now.',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/486/original/Atty-commission-jediarttrick-avatar_size.jpg',
+	'avatar' => 'img/avatars/celevon.jpg',
 	'name' => 'Celevon',
 	'message' => 'I still want revenge from the previous Great Jedi War.',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/andrelious-vindictive.jpg',
 	'name' => 'Andrelious',
 	'message' => 'Didn’t you abandon us for Plagueis?',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/486/original/Atty-commission-jediarttrick-avatar_size.jpg',
+	'avatar' => 'img/avatars/celevon.jpg',
 	'name' => 'Celevon',
 	'message' => 'All this conflict has caused me to have flashbacks of the death of my former Master, Sashar.',
 	'height' => 2,
@@ -83,7 +83,7 @@ $chatter[] = array(
 	'message' => 'Arcona is my home now.',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/486/original/Atty-commission-jediarttrick-avatar_size.jpg',
+	'avatar' => 'img/avatars/kooki-annoyed.jpg',
 	'name' => 'Kooki',
 	'message' => 'Silence. The pair of you.',
 );
@@ -93,13 +93,13 @@ $chatter[] = array(
 	'height' => 2,
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/486/original/Atty-commission-jediarttrick-avatar_size.jpg',
+	'avatar' => 'img/avatars/atyiru-proud.jpg',
 	'name' => 'Atyiru',
 	'message' => 'Your feelings serve you well, dear. My teachings boded well for times like these.',
 	'height' => 2,
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'avatar' => 'img/avatars/andrelious-flirtatious.jpg',
 	'name' => 'Andrelious',
 	'message' => 'I love it when you’re so assertive, darling.',
 );
@@ -107,7 +107,7 @@ $chatter[] = array(
 	'message' => 'Where are we leaving the twins?',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/486/original/Atty-commission-jediarttrick-avatar_size.jpg',
+	'avatar' => 'img/avatars/kooki-stoic.jpg',
 	'name' => 'Kooki',
 	'message' => 'I know you do. Since Nadrin is also in combat, we will have to leave them on Corellia with your parents.',
 	'height' => 2,
@@ -121,12 +121,12 @@ $chatter[] = array(
 	'height' => 2,
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/486/original/Atty-commission-jediarttrick-avatar_size.jpg',
-	'name' => 'Celevon',
+	'avatar' => 'img/avatars/cethgus.jpg',
+	'name' => 'Cethgus',
 	'message' => 'Stop worrying about such things.',
 );
 $chatter[] = array(
-	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/013/486/original/Atty-commission-jediarttrick-avatar_size.jpg',
+	'avatar' => 'img/avatars/atyiru-content.jpg',
 	'name' => 'Atyiru',
 	'message' => 'Hush, brother. Stop being so...<em>you</em> and let’s just get moving.',
 );

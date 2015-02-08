@@ -104,6 +104,7 @@ h4 {
 .skrollr-desktop #scrollbar {display: none;}
 
 #bg4,
+#bg5,
 #bg1,
 #bg2,
 #bg3 {
@@ -131,6 +132,11 @@ h4 {
 	background-image: url(img/korriban_by_suirebit-d79yctl-dark.jpg);
 }
 
+#bg5 {
+	z-index: 56;
+	background-image: url(http://img3.wikia.nocookie.net/__cb20081206061900/starwars/images/4/4c/ThoughtBomb.jpg);
+}
+
 #intro,
 #battle {
 	background: #252525;
@@ -143,6 +149,7 @@ h4 {
 	text-align: center;
 	top: 1em;
 	width: 80%;
+	z-index: 100000;
 
 	-webkit-transform-origin: 0 0;
 	-moz-transform-origin: 0 0;

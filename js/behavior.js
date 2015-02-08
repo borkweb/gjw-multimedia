@@ -14,6 +14,14 @@ var mm = {};
 			}
 		});
 
+		$( document ).on( 'click', '#auto-play', function( e ) {
+			e.preventDefault();
+
+			$( 'body' ).simplyScroll( {
+				orientation: 'vertical'
+			} );
+		});
+
 		$( '#battle' ).waypoint( function( direction ) {
 			if ( 'up' === direction ) {
 				mm.fates( false );
