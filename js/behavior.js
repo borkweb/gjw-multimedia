@@ -39,6 +39,7 @@ var mm = {};
 				mm.force( true );
 			} else {
 				mm.fates( true );
+				mm.force( false );
 			}//end else
 		}, {
 			offset: -13800
