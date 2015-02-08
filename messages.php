@@ -53,7 +53,7 @@ $chatter[] = array(
 $chatter[] = array(
 	'avatar' => 'img/avatars/turel.jpg',
 	'name' => 'Turel',
-	'message' => 'You focus on that, we’ll focus on stopping Taldryan and their allies.',
+	'message' => 'You concentrate on that, we’ll focus on stopping Taldryan and their allies.',
 );
 $chatter[] = array(
 	'avatar' => 'img/avatars/baxir-annoyed.jpg',
@@ -61,7 +61,7 @@ $chatter[] = array(
 	'message' => 'Yeah, we shouldn’t be concerned about that Teltior. He’s gone.',
 );
 $chatter[] = array(
-	'message' => 'Let’s focus on things that matter in the here and now.',
+	'message' => 'Let’s keep our minds on things that matter in the here and now.',
 );
 $chatter[] = array(
 	'avatar' => 'img/avatars/celevon.jpg',

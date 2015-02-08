@@ -16,6 +16,12 @@ $chatter[] = array(
 	'message' => 'Frakking Plagueian traitors!',
 );
 $chatter[] = array(
+	'avatar' => 'img/avatars/nadrin.jpg',
+	'name' => 'Nadrin',
+	'message' => 'These fools have piss-poor tactics. We’ll finish them and be out of here in no time!',
+	'height' => 2,
+);
+$chatter[] = array(
 	'avatar' => 'img/avatars/marick-concerned.jpg',
 	'name' => 'Marick',
 	'message' => 'Don’t get too hasty, Erinos! This isn’t over yet.',
@@ -29,7 +35,7 @@ $chatter[] = array(
 	'message' => 'Wait a second.',
 );
 $chatter[] = array(
-	'message' => 'What’s that coming over that dune?',
+	'message' => 'What’s that coming over the dune?',
 );
 $chatter[] = array(
 	'avatar' => 'img/avatars/andrelious-worried.jpg',
