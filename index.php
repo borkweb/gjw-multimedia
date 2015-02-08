@@ -20,8 +20,10 @@
 	<div id="progress" data-0="width:0%;background:rgba(55, 55, 55, .3);" data-end="width:100%;background:rgba( 55, 55, 55, 1);"></div>
 
 	<div id="intro" data-0="opacity:1;top:3%;" data-500="opacity:0;top:-20%;">
-		<h1>Some sweet title</h1>
-		<h2>Andrelious, Baxir, and Kookimarissia</h2>
+		<h1>Battle communique</h1>
+		<h2>A multimedia submission</h2>
+		<h3>by Andrelious, Baxir, and Kookimarissia</h3>
+		<hr>
 		<p>Scroll!</p>
 		<p class="arrows">▼&nbsp;▼&nbsp;▼</p>
 	</div>
@@ -34,8 +36,10 @@
 
 	$chatter = prep_chatter( $start, $chatter );
 	$final_height = out_chatter( $start, $chatter, 'chat-container-1' );
+	$bg_change = $final_height + 2500;
 
 	?>
+	<div id="bg4" data-0="opacity:0;" data-<?php echo $bg_change-1000; ?>="opacity:0;" data-<?php echo $bg_change; ?>="opacity:1;background-position:0px 0px;" data-end="background-position:0px 0px;"></div>
 	<div id="battle" data-<?php echo $final_height; ?>="opacity:0;bottom:3%;" data-<?php echo $final_height + 300; ?>="opacity:0;bottom:40%;" data-<?php echo $final_height + 1800; ?>="opacity:1;" data-<?php echo $final_height + 2500; ?>="opacity:0;">
 		<p>*Some time later*</p>
 	</div>

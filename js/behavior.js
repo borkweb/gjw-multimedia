@@ -14,8 +14,12 @@ var mm = {};
 			}
 		});
 
-		$( '#battle' ).waypoint( function() {
-			mm.fates( true );
+		$( '#battle' ).waypoint( function( direction ) {
+			if ( 'up' === direction ) {
+				mm.fates( false );
+			} else {
+				mm.fates( true );
+			}//end else
 		}, {
 			offset: -13800
 		});

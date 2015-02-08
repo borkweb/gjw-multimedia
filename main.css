@@ -103,7 +103,10 @@ h4 {
 
 .skrollr-desktop #scrollbar {display: none;}
 
-#bg1, #bg2, #bg3 {
+#bg4,
+#bg1,
+#bg2,
+#bg3 {
 	z-index: 50;
 	top: 0;
 	left: 0;
@@ -121,6 +124,11 @@ h4 {
 #bg3 {
 	z-index: 48;
 	background-image: url(img/starfield-3.png);
+}
+
+#bg4 {
+	z-index: 55;
+	background-image: url(img/korriban_by_suirebit-d79yctl-dark.jpg);
 }
 
 #intro,
@@ -150,6 +158,34 @@ h4 {
 #battle {
 	bottom: 1em;
 	top: auto;
+}
+
+#intro h1 {
+	font-size: 25px;
+	letter-spacing: 2px;
+	margin-bottom: 1rem;
+}
+
+#intro h2,
+#intro h3 {
+	color: #555;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0;
+}
+
+#intro h3 {
+	margin: 0 0 1rem 0;
+}
+
+#intro hr {
+	background: #333;
+	border: 0;
+	height: 1px;
+}
+
+#intro p {
+	color: #555;
 }
 
 #chat-container-1,
