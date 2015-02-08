@@ -41,7 +41,7 @@
 	?>
 	<div id="bg4" data-0="opacity:0;" data-<?php echo $bg_change-1000; ?>="opacity:0;" data-<?php echo $bg_change; ?>="opacity:1;background-position:0px 0px;" data-end="background-position:0px 0px;"></div>
 	<div id="battle" data-<?php echo $final_height; ?>="opacity:0;bottom:3%;" data-<?php echo $final_height + 300; ?>="opacity:0;bottom:40%;" data-<?php echo $final_height + 1800; ?>="opacity:1;" data-<?php echo $final_height + 2500; ?>="opacity:0;">
-		<p>*Some time later*</p>
+		<p><em>Hours later &ndash;  Korriban.</em></p>
 	</div>
 
 	<?php
@@ -49,7 +49,7 @@
 
 	include __DIR__ . '/messages-battle.php';
 	$chatter = prep_chatter( $start, $chatter );
-	$final_height = out_chatter( $start, $chatter, 'chat-container-2' );
+	$final_height = out_chatter( $start, $chatter, 'chat-container-2', 6 );
 	?>
 
 	<div id="scrollbar" data-0="top:0%;margin-top:2px;" data-end="top:100%;margin-top:-52px;"></div>
@@ -59,6 +59,7 @@
 	<script type="text/javascript" src="js/skrollr/dist/skrollr.ie.min.js"></script>
 	<![endif]-->
 	<script src="js/waypoints.min.js"></script>
+	<script src="js/jquery.simplyscroll.min.js"></script>
 	<script src="js/behavior.js"></script>
 
 	<audio id="fates" controls="controls" style="display: none;" preload="auto">

@@ -31,7 +31,6 @@ $chatter[] = array(
 	'name' => 'Andrelious',
 	'message' => 'Frak! A fresh wave! There’s a swarm of them and it looks like...',
 );
-$chatter[] = 1000;
 $chatter[] = array(
 	'message' => '...it <em>feels</em> like Esoteric is with them!',
 );
@@ -40,7 +39,6 @@ $chatter[] = array(
 	'name' => 'Baxir',
 	'message' => 'Oh, that’s him alright.',
 );
-$chatter[] = 1000;
 $chatter[] = array(
 	'message' => 'Squad 8, 9, and 13 - high tail it to the backside of that dune at your 4 o\'clock and come in for their flank.',
 	'height' => 2,
@@ -84,4 +82,30 @@ $chatter[] = array(
 	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/003/714/original/3714-avatar.png',
 	'name' => 'Muz',
 	'message' => 'Stay with me and you’ll be rewarded. Run, and be hunted!',
+);
+$chatter[] = array(
+	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'name' => 'Andrelious',
+	'message' => 'They’ve stopped. What’s Esoteric doing?',
+);
+$chatter[] = array(
+	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'name' => 'Ood',
+	'message' => 'I sense something isn’t right. I’ve only read about this once, but...',
+);
+$chatter[] = array(
+	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'name' => 'Esoteric',
+	'message' => 'Thank you for joining me. Two millennia is far too long to live. Finally, I\’ve found the way out of this living hell. Unleash the thought bomb, men!',
+	'height' => 2,
+);
+$chatter[] = array(
+	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'name' => 'Aabsdu',
+	'message' => 'Yes, Lord Esoteric!',
+);
+$chatter[] = array(
+	'avatar' => 'https://www.darkjedibrotherhood.com/system/members/avatars/000/001/653/original/andrelious-headshot.jpg',
+	'name' => 'Dacien',
+	'message' => 'By your command, Lord Esoteric!',
 );

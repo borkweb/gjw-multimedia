@@ -61,7 +61,7 @@ function prep_chatter( $start, $chatter ) {
 	return $massaged_chatter;
 }//end prep_chatter
 
-function out_chatter( $original_start, $chatter, $id ) {
+function out_chatter( $original_start, $chatter, $id, $speed = 5 ) {
 	ob_start();
 
 	foreach ( $chatter as $chat ) {
@@ -84,7 +84,7 @@ function out_chatter( $original_start, $chatter, $id ) {
 		data-<?php echo $original_start; ?>="left:0;top:0%;opacity:1;width:100%;height:<?php echo $final_height; ?>px;"
 		data-<?php echo $original_start + 3000; ?>="top:0%;"
 		<?php
-		for ( $i = $original_start + 3050, $j = 1; $i < $final_height + 3000; $i += 5, $j++ ) {
+		for ( $i = $original_start + 3050, $j = 1; $i < $final_height + 3000; $i += $speed, $j++ ) {
 			?>
 			data-<?php echo $i; ?>="top:-<?php echo $j; ?>px;"
 			<?php
